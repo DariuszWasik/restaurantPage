@@ -1,5 +1,8 @@
 /* styles.css */
 body {
-    background-color: rgb(153, 90, 51);
+    background-color: rgb(170, 156, 147);
   }
   
+  #shireInn {
+    height: 50vh;
+  }
