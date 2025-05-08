@@ -6,3 +6,13 @@ body {
   #shireInn {
     height: 50vh;
   }
+
+.welcome {
+  color: red;
+}
+
+.italicWelcome {
+  font-style: italic;
+  font-weight: 300;
+}
+
