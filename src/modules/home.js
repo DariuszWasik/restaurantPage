@@ -1,3 +1,7 @@
+import shireInnImg from '../assets/home/shireinn.jpg'
+import fireplaceImg from '/home/dariolysy/repos/restaurantPage/src/assets/home/fireplace.jpg'
+
+
 const content = document.querySelector('#content');
 const welcome = document.createElement('h2');
 welcome.classList.add('welcome');
@@ -20,10 +24,15 @@ imgDiv.classList.add('imgDiv');
 
 const img1 =document.createElement('img');
 img1.id = 'shireInn';
-img1.src = './assets/home/fireplace.jpg';
-img1.alt = 'a hobbitstyle restaurant with hobbits sitting outside and having a meal'
+img1.src = shireInnImg;
+img1.alt = 'a hobbit-style restaurant with hobbits sitting outside and having a meal'
+
+const img2 =document.createElement('img');
+img2.id = 'fireplace';
+img2.src = fireplaceImg;
+img2.alt = 'fireplace with hobbits around, they eat, drink and have fun'
 
 
-imgDiv.append(img1);
+imgDiv.append(img1, img2);
 
-content.append(welcome, italicWelcome, para1, para2, imgDiv);
+content.append(welcome, italicWelcome, para1, para2, imgDiv,);

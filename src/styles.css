@@ -3,12 +3,18 @@ body {
     background-color: rgb(170, 156, 147);
   }
   
-  #shireInn {
-    height: 50vh;
+.imgDiv {
+  display: flex;
+  gap: 5vh
+}
+
+  #shireInn, #fireplace {
+    width:  30vw;
+    border-radius: 3rem;
   }
 
 .welcome {
-  color: red;
+  color: rgb(14, 11, 11);
 }
 
 .italicWelcome {
