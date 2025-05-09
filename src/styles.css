@@ -64,6 +64,9 @@ h1, h2, h3, h4, h5, h6 {
 
 /* styles.css */
 body {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
     width: 1000px;
     background-color: rgb(193, 181, 174);
     background-image: var(--bcg-img);
@@ -72,6 +75,14 @@ body {
     /* border: 2px pink dotted; */
   }
 
+header {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
 header div {
   display: flex;
   justify-content: center;
@@ -79,4 +90,26 @@ header div {
   header, div, img, nav, footer {
     /* border: 1px, black, solid; */
   }
- 
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 6rem;
+}
+
+button {
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 400;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border: 1px ;
+  border-style: outset;
+  background-image: url(./assets/home/shireinn.jpg);
+}
+
+button:hover{
+  border-style: dotted;
+}
