@@ -1,0 +1,20 @@
+ 
+.imgDiv {
+  display: flex;
+  justify-content: center;
+  gap: 5vh
+}
+
+  #shireInn, #fireplace {
+    width:  25vw;
+    border-radius: 3rem;
+  }
+
+.welcome {
+  color: rgb(14, 11, 11);
+}
+
+.italicWelcome {
+  font-style: italic;
+  font-weight: 300;
+}

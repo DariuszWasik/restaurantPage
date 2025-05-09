@@ -1,3 +1,6 @@
+
+
+import './homeStyles.css'
 import shireInnImg from '../assets/home/shireinn.jpg'
 import fireplaceImg from '/home/dariolysy/repos/restaurantPage/src/assets/home/fireplace.jpg'
 
