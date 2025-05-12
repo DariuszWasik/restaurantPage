@@ -1,2 +1,4 @@
 import './styles.css'
-import './modules/home.js'
+import { displayHome } from './modules/home' 
+
+displayHome();

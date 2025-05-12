@@ -5,6 +5,8 @@ import shireInnImg from '../assets/home/shireinn.jpg'
 import fireplaceImg from '/home/dariolysy/repos/restaurantPage/src/assets/home/fireplace.jpg'
 
 
+
+export function displayHome() {
 const content = document.querySelector('#content');
 const welcome = document.createElement('h2');
 welcome.classList.add('welcome');
@@ -39,3 +41,4 @@ img2.alt = 'fireplace with hobbits around, they eat, drink and have fun'
 imgDiv.append(img1, img2);
 
 content.append(welcome, italicWelcome, para1, para2, imgDiv,);
+}
