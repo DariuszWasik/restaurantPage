@@ -7,7 +7,10 @@ import fireplaceImg from '/home/dariolysy/repos/restaurantPage/src/assets/home/f
 
 
 export function displayHome() {
+
 const content = document.querySelector('#content');
+content.innerHTML = '';
+
 const welcome = document.createElement('h2');
 welcome.classList.add('welcome');
 welcome.innerText = 'Welcome to The Shire Inn';
