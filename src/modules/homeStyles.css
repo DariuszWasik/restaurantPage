@@ -1,4 +1,24 @@
  
+@media only screen and (max-width: 600px){
+  
+  .imgDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* gap: 1vh */
+    
+      #shireInn, #fireplace {
+        width:  75vw;
+        border-radius: 3rem;
+      }
+
+  }
+
+
+
+}
+
+
 .imgDiv {
   display: flex;
   justify-content: center;
@@ -6,7 +26,8 @@
 }
 
   #shireInn, #fireplace {
-    width:  25vw;
+    width:  35vw;
+    max-width: 42ch;
     border-radius: 3rem;
   }
 
@@ -29,7 +50,9 @@ p {
     font-style: italic;
     font-weight: 200;
     text-align: end;
-    width: 600px;
+    max-width: 80ch;
+    margin-right: 2rem;
+    margin-left: 2rem;
   }
  
   #content {
