@@ -1,0 +1,4 @@
+.container {
+    border: 1px blue dotted;
+    max-width: 80ch;;
+}
