@@ -48,15 +48,15 @@ const dishDescriptions = [
   "Poached trout in lemon and bay leaf broth, served with herbed butter and fresh greens from Sam’s garden.",
   "Tangy-sweet gooseberry tart in a buttery crust, best served warm with a spoonful of clotted cream.",
   "Golden-baked pie filled with sautéed mushrooms, leeks, and garlic – a dinner table favorite.",
-  "Tender cuts of wild-caught rabbit, slow-braised in a hearty Brandybuck brown ale with pearl onions, root vegetables, and a hint of rosemary. Served piping hot with a ladle of thick, savory gravy and crusty hearth-baked bread on the side. A feast-day favorite that warms even the coldest evenings under the Party Tree."
+  "Tender cuts of wild-caught rabbit, slow-braised in a hearty Brandybuck brown ale with pearl onions, root vegetables, and a hint of rosemary. Served piping hot with a ladle of thick, savory gravy and crusty hearth-baked bread on the side."
 
 ];
 
 const prices = [
     2.99,
-    12.50,
+    17.50,
     4.50,
-    15.99,
+    12.99,
     7.50,
     6.75,
     11.00,
@@ -139,8 +139,6 @@ for (let i=0; i<hobbitDishes.length; i++){
 
 dishes.forEach((el) => {
     el.addToDOM();
-    console.log(el.name)
 })
-console.log(dishes)
 
 }

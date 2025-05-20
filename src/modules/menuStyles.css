@@ -1,3 +1,15 @@
+@media only screen and (max-width: 600px){
+    .dishCard {
+         gap: none;
+    }
+
+    .dishImg{
+        width: 150px;
+        border-radius: 0.2rem;
+    }
+
+}
+
 .container {
     /* border: 1px blue dotted; */
     max-width: 80ch;
@@ -17,6 +29,9 @@
     gap: 1rem;
 }
 
+.dishImgDiv {
+    align-self: center;
+}
 .textDiv {
     display: flex;
     flex-direction: column;
@@ -30,6 +45,7 @@
     align-self: flex-end;
     margin-right: 2rem;
     margin-top: -0.7rem;
+    font-size: 1rem;    
 }
 
 .dishDescription {
