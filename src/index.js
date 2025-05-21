@@ -3,9 +3,7 @@ import { displayHome } from './modules/home'
 import { displayMenu } from './modules/menu';
 import { displayAbout } from './modules/about';
 
-// displayHome();
-displayMenu();
-
+displayHome();
 
 const homeBtn = document.querySelector('.home');
 const menuBtn = document.querySelector('.menu');
