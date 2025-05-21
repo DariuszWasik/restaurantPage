@@ -23,8 +23,8 @@ const para1 = document.createElement('p');
 para1.classList.add('para1');
 para1.innerText = 'At The Hobbit Inn, our kitchen is the heart of our home — and at the heart of the kitchen are our beloved chefs: Ania Boffin, Lucja Mugwort, and Tadeusz Proudfoot. Each of them brings their own flavor of warmth, whimsy, and woodland wisdom to every meal.'
 
-const container = document.createElement('div');
-container.classList.add('container');
+const container2 = document.createElement('div');
+container2.classList.add('container2');
 
 const aniaImg = document.createElement('img')
 aniaImg.src = ania;
@@ -34,7 +34,7 @@ const tadeuszImg = document.createElement('img')
 tadeuszImg.src = tadeusz;
 
 
-container.append(aniaImg, lucjaImg, tadeuszImg)
+container2.append(aniaImg, lucjaImg, tadeuszImg)
 
 const paraA = document.createElement('p');
 paraA.classList.add('paraA');
@@ -58,5 +58,5 @@ const address = document.createElement('h4');
 address.innerText = "The Shire Inn\nUnderhill Lane, Bywater Hollow\nWestfarthing, The Shire\nMiddle-earth, 1420 S.R."
 address.classList.add('address');
 
-content.append(welcome, italicWelcome, para1, container, paraA, paraB, paraC, findUs, mapImg, address);
+content.append(welcome, italicWelcome, para1, container2, paraA, paraB, paraC, findUs, mapImg, address);
 }

@@ -11,11 +11,11 @@
 }
 
 .container {
-    /* border: 1px blue dotted; */
+    border: 1px blue dotted;
     max-width: 80ch;
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 3rem;
 }
 
 .dishImg {

@@ -77,6 +77,10 @@ h1, h2, h3, h4, h5, h6 {
         max-width: 80vw;
       }
 
+      p {
+        font-weight: 300;
+      };
+
 }
 
 
@@ -85,10 +89,8 @@ body {
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-    /* width: 1000px; */
     background-color: rgb(193, 181, 174);
     background-image: var(--bcg-img);
-    /* text-align: center; */
     margin: auto;
     border: 2px pink dotted;
   }
@@ -105,19 +107,11 @@ header div {
   display: flex;
   justify-content: center;
 }
-  header, div, img, nav, footer {
-    /* border: 1px, black, solid; */
-  }
-
 
 nav {
   margin-top: -1rem;
   display: flex;
   justify-content: space-between;
-  /* border: 1px black solid; */
-  /* gap: 6rem; */
-  /* max-width: 80vw; */
-  /* min-width: 70vw; */
   width: 90ch;
 }
 
@@ -133,6 +127,7 @@ button:hover{
   text-decoration: underline;
 }
 
-.content {
+#content {
+  text-align: center;
   max-width: 100vw;
 }
