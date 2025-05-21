@@ -78,7 +78,8 @@ h1, h2, h3, h4, h5, h6 {
       }
 
       p {
-        font-weight: 450;
+        font-weight: 650;
+        color: rgb(67, 7, 7)
       };
 
 }
@@ -92,7 +93,6 @@ body {
     background-color: rgb(193, 181, 174);
     background-image: var(--bcg-img);
     margin: auto;
-    border: 2px pink dotted;
   }
 
 header {
